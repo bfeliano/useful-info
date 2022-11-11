@@ -25,5 +25,5 @@
 **- Delete one object:**<br>
 *aws s3api delete-object --bucket bucketname --key objectname*<br><br>
 **- Delete multiple object:**<br>
-*aws s3api delete-objects --bucket <bucketname> --delete '{"Objects":[{"Key":"object name"},{"Key":"object name"}]}'*<br>
+*aws s3api delete-objects --bucket bucketname --delete '{"Objects":[{"Key":"object name"},{"Key":"object name"}]}'*<br>
 [Documentation](https://docs.aws.amazon.com/cli/latest/reference/ssm/put-parameter.html)<br>
